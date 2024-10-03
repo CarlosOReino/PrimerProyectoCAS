@@ -10,13 +10,13 @@
     
   }
   
-  .item {
+  nav .item {
     color: white;
     font-size: 24px;
     display: inline-block;
     box-sizing: border-box;
     padding: 14px 20px;
-    font-style: none;
+    text-decoration: none;
   }
   .apellidos .apellido{
     display: flex;
