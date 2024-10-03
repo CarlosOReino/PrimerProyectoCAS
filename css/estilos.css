@@ -1,0 +1,26 @@
+/*ESTILOS PARA LA BARRA DE NAVEGACIÓN*/
+.menu-barr {
+    background-color: #1988f7;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .item {
+    color: white;
+    background-color: transparent;
+    font-size: 24px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+  }
+  
+  .item.title {
+    font-weight: 800;
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
