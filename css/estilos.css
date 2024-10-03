@@ -4,8 +4,7 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    font-family:'Times New Roman', Times, serif;
-    
+    font-family:'Courier New', Courier, monospace;
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0.1, 0.2);
     
   }
@@ -20,9 +19,11 @@
   }
   .apellidos .apellido{
     display: flex;
+    font-size: 100px;
     justify-content:flex-end;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
   }
   .nombres .nombre{
