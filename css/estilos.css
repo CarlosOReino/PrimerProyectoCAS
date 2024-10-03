@@ -1,26 +1,39 @@
 /*ESTILOS PARA LA BARRA DE NAVEGACIÓN*/
 .menu-barr {
-    background-color: #1988f7;
+    background-color: rgba(2, 116, 51, 1), rgba(33, 29, 99, 1);
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
+    
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0.1, 0.2);
+    
   }
   
   .item {
     color: white;
-    background-color: transparent;
     font-size: 24px;
     display: inline-block;
     box-sizing: border-box;
     padding: 14px 20px;
+    font-style: none;
   }
-  
-  .item.title {
-    font-weight: 800;
+  .apellidos .apellido{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
   }
-  
+  .nombres .nombre{
+    display: flex;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
   .item:hover {
     background-color: rgba(0, 0, 0, 0.1);
   }
-  
+  body{
+    background-image: radial-gradient(circle, rgba(2, 116, 51, 1) 0%, rgba(33, 29, 99, 1) 100%);
+}
