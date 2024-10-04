@@ -1,40 +1,52 @@
 /*ESTILOS PARA LA BARRA DE NAVEGACIÓN*/
 .menu-barr {
-    background-color: rgba(2, 116, 51, 1), rgba(33, 29, 99, 1);
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0.1, 0.2);
-    
-  }
-  
-  nav .item {
-    color: white;
-    font-size: 24px;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-  .apellidos .apellido{
-    display: flex;
-    font-size: 100px;
-    justify-content:flex-end;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-  }
-  .nombres .nombre{
-    display: flex;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-  }
-  .item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  body{
-    background-image: radial-gradient(circle, rgba(2, 116, 51, 1) 0%, rgba(33, 29, 99, 1) 100%);
+  background-color: rgba(2, 116, 51, 1), rgba(33, 29, 99, 1);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0.1, 0.2);
+}
+
+nav .item {
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+/* Estilos para la barra de navegación con nombres */
+.nom {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos extremos entre sí */
+  align-items: center; /* Alinea verticalmente al centro */
+  padding: 10px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.apellidos .apellido {
+  display: flex;
+  font-size: 100px;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.nombres .nombre {
+  display: flex;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: right;
+}
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+body {
+  background-image: radial-gradient(
+    circle,
+    rgba(2, 116, 51, 1) 0%,
+    rgba(33, 29, 99, 1) 100%
+  );
 }
