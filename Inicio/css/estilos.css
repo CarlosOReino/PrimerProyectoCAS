@@ -1,4 +1,8 @@
 body {
+  
+  padding: 20px; 
+  margin: 40px; 
+  
   background-image: radial-gradient(
     circle,
     rgba(2, 116, 51, 1) 0%,
@@ -30,6 +34,7 @@ nav .item {
   align-items: center;
   padding: 10px;
   font-family: "Bebas Neue", sans-serif;
+  text-shadow: 4px 4px #000;
 }
 .apellidos .apellido {
   display: flex;
@@ -55,21 +60,19 @@ nav .item {
 
 .bienvenido h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 100px;
+  font-size: 90px;
   text-align: center;
   color: bisque;
   text-decoration: line-through;
   text-shadow:  4px 4px #ff0000;
+  
 }
-.cuadro {
-  position: relative;
+.bienvenido {
   width: 550px;
-  height: 150px;
-  background-color: antiquewhite;
-  margin: 0 auto;
-  
-  
+  height: 400px;
+  margin: 0 auto; 
 }
+
 div.cuadro h2{
   font-family:"Bebas Neue", sans-serif;
   font-size: 90px;
@@ -77,4 +80,46 @@ div.cuadro h2{
   text-align: right;
   text-decoration: overline;
   
+}
+/*Estilos para el footer*/
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+    padding: 10px;
+  
+}
+
+footer a {
+  color: thistle;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+/*circulos*/
+.contenedorcirculos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.circulo1{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  
+  box-shadow:inset 2px 2px  #000;
+}
+.circulo2{
+  position:absolute;
+  top: 20%; left: 20%;
+  width: 200px;
+  height: 200px;
+  background-color:rgb(214, 57, 29);
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px #000;
 }
