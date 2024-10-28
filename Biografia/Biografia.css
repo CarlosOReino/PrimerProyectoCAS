@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: radial-gradient(
+    circle,
+    rgba(2, 116, 51, 1) 0%,
+    rgba(33, 29, 99, 1) 100%
+  );
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+.nom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 4px 4px #000;
+  }
+  .apellidos .apellido {
+    display: flex;
+    font-size: 100px;
+    justify-content: flex-end;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+  .nombres .nombre {
+    display: flex;
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-align: right;
+  }
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px; 
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+.info-personal {
+    max-width: 500px;
+    
+}
+.info-personal h2{
+    color: antiquewhite;
+    text-shadow: 2px 2px #000;
+}
+.descripcion {
+    max-width: 700px;
+    text-align: justify;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+footer {
+    background-color: #66a077;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
