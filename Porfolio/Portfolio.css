@@ -1,0 +1,129 @@
+body {
+  height: 100%;
+  margin: 0;
+
+  background-image: radial-gradient(
+    circle,
+    rgba(2, 116, 51, 1) 0%,
+    rgba(33, 29, 99, 1) 100%
+  );
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+/*Estilo nombres*/
+.nom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  text-shadow: 4px 4px #000;
+  
+}
+.nombres .nombre {
+  display: flex;
+  font-size: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  text-align: right;
+}
+.apellidos .apellido {
+  display: flex;
+  font-size: 100px;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+/*Animación para el h3 */
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: bisque;
+  font-size: 180px;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  55% {
+    animation-timing-function: ease-in;
+    transform: translateY(-65px);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: translateY(-28px);
+  }
+
+  90% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: translateY(-8px);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateY(0);
+  }
+}
+h4 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: bisque;
+}
+.imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+img {
+  width: 230px;
+}
+.img {
+  width: 900px;
+  height: 400px;
+  box-shadow: -3px -1px 48px 6px #000000;
+}
+hr{
+    height: 10px;
+    background-color: bisque;
+    width: 80%;
+}
+/*Pie de página*/
+footer {
+  background-color: #66a077;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

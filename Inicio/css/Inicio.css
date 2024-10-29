@@ -1,8 +1,6 @@
-
 body {
   padding: 20px;
   margin: 40px;
-
   background-image: radial-gradient(
     circle,
     rgba(2, 116, 51, 1) 0%,
@@ -80,26 +78,3 @@ div.cuadro h2 {
   text-decoration: overline;
 }
 /*Estilos para el footer*/
-
-footer {
-  background-color: #073117;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  padding: 10px;
-}
-
-footer a {
-  color: thistle;
-  text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-}
-/*circulos*/
-.contenedorcirculos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-}
-

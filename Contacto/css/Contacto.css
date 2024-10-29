@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(2, 116, 51, 1) 0%,
+    rgba(33, 29, 99, 1) 100%
+  );
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+.nom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  text-shadow: 4px 4px #000;
+}
+.apellidos .apellido {
+  display: flex;
+  font-size: 100px;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.nombres .nombre {
+  display: flex;
+  font-size: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  text-align: right;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-personal {
+  max-width: 500px;
+}
+.info-personal h2 {
+  color: antiquewhite;
+  text-shadow: 2px 2px #000;
+}
+.descripcion {
+  width: 400px;
+  text-align: justify;
+  background-color: #adc0b3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.descripcion h3 {
+  
+  color: white;
+  font-size: 24px;
+}
+/* Estilo para las redes sociales */
+.rrss {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Estilo para los iconos de redes sociales */
+.rrss a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rrss a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Efecto hover para los iconos */
+.rrss a:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+  background-color: #66a077;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
